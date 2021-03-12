@@ -19,20 +19,21 @@
 // It should appear on the same line, or be alone on the next line (preferred),
 // but strictly we allow it to be any text following the reference. If you type
 // a full paragraph, bad things will happen! Names should be reasonably short.
+# Barfly Cocktail Spec(s)
 
 *Name*:
 Cocktail Name
 
 // The INGREDIENTS section of the spec is a special format. It has to have
 // **one** ingredient per line, and the amounts of each ingredient must be
-// specified as a number followed by a standard measurement unit. This is
-// important for one of `barman`'s main functions which is to translate units
-// of measurement in specs.
+// specified as a (decimal) number followed by a standard measurement unit.
+// This is important for one of `barman`'s main functions which is to translate
+// units of measurement in specs.
 
 *Ingredients*:
 1 oz. Spirit
 1 oz. Aromatized Wine
-1/2 oz. Simple Syrup
+0.5 oz. Simple Syrup
 2 dashes Branded Bitters
 Cherry for garnish
 
@@ -47,8 +48,8 @@ that this holds for ingredients in the spec, too. But we prefer the style that
 starts each section on the following line.) The instructions can be written as
 completely free text. We intend, if it is not too hard, to scan this text and
 look for pairs of NUMBERS and UNITS that could then be converted, like these:
-Suppose you replace Spirt with New Spirit, then change the amount to 1.5 oz.,
-for instance.
+Suppose you replace Spirt with New Spirit, then change the amount from 1 oz. to
+1.5 oz., for instance.
 
 // The references above:
 //
