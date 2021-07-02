@@ -60,4 +60,5 @@ Suppose you replace Spirt with New Spirit, then change the amount from 1 oz. to
 // form a MIMIMAL cocktail spec. However, `barman` allows anything formatted in
 // the same way as a reference, i.e. "*[TEXT]*:" to be used as a custom
 // reference. `barman` will, if you specify, use these in similar ways for
-// processing.
+// processing. For instance, we expect the reference *Varations*: to be used a
+// lot.
