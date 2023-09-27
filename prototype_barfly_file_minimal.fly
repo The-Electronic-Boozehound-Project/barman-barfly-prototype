@@ -11,10 +11,9 @@ Cocktail Name
 Cherry for garnish
 
 *Instructions*:
-Instructions can begin on the same line as the "instructions" reference. (Note
-that this holds for ingredients in the spec, too. But we prefer the style that
-starts each section on the following line.) The instructions can be written as
-completely free text. We intend, if it is not too hard, to scan this text and
-look for pairs of NUMBERS and UNITS that could then be converted, like these:
-Suppose you replace Spirt with New Spirit, then change the amount from 1 oz. to
-1.5 oz., for instance. (This is an example of a MINIMAL barfly file.)
+The instructions can be written as completely free text. We intend, if it is not 
+too hard, to scan this text and look for pairs of NUMBERS and UNITS that could 
+then be converted, like these: Suppose you replace Spirt with New Spirit, then 
+change the amount from 1 oz. to 1.5 oz., for instance.
+
+(This is an example of a MINIMAL barfly file.)
