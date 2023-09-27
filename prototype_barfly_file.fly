@@ -1,7 +1,7 @@
 // Barfly File Format (Prototype)
 //
 // Barfly files can have comments that are marked in the traditional way
-// used by  lots of languages but they are usually not necessary. Any lines
+// used by lots of languages but they are usually not necessary. Any lines
 // beginning with double slashes will be ignored and (when relevant) passed
 // through without modification. (We are considering allowing use of both //
 // and #.)
@@ -43,13 +43,10 @@ Cherry for garnish
 // as they have the form NUMBER followed by UNIT.
 
 *Instructions*:
-Instructions can begin on the same line as the "instructions" reference. (Note
-that this holds for ingredients in the spec, too. But we prefer the style that
-starts each section on the following line.) The instructions can be written as
-completely free text. We intend, if it is not too hard, to scan this text and
-look for pairs of NUMBERS and UNITS that could then be converted, like these:
-Suppose you replace Spirt with New Spirit, then change the amount from 1 oz. to
-1.5 oz., for instance.
+The instructions can be written as completely free text. We intend, if it is 
+not too hard, to scan this text and look for pairs of NUMBERS and UNITS that 
+could then be converted, like these: Suppose you replace Spirt with New Spirit, 
+then change the amount from 1 oz. to 1.5 oz., for instance.
 
 // The references above:
 //
@@ -57,8 +54,8 @@ Suppose you replace Spirt with New Spirit, then change the amount from 1 oz. to
 //            + *Ingredients*:
 //            + *Instructions*:
 //
-// form a MIMIMAL cocktail spec. However, `barman` allows anything formatted in
+// form a MIMIMAL cocktail spec. However, `barbot` allows anything formatted in
 // the same way as a reference, i.e. "*[TEXT]*:" to be used as a custom
-// reference. `barman` will, if you specify, use these in similar ways for
+// reference. `barbot` will, if you specify, use these in similar ways for
 // processing. For instance, we expect the reference *Varations*: to be used a
 // lot.
